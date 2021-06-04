@@ -1,8 +1,8 @@
 language: Python
 python:
   - "3.7"
+before_install: cd trader
 install:
   - pip install -r requirements.txt
-before_script: cd trader
 script:
   - python manage.py test
