@@ -1,7 +1,7 @@
 language: Python
 python:
   - "3.7"
-before_install: cd trader
+before_install: cd traderbot
 install:
   - pip install -r requirements.txt
 script:
